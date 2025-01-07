@@ -1,0 +1,5 @@
+cmake
+dlib==19.22
+face_recognition
+opencv-python
+numpy
