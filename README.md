@@ -38,7 +38,7 @@ The application utilizes a webcam to analyze video streams, identify known faces
 
 2. **Install dependencies:**  
    ```bash  
-   pip install cmake dlib==19.22 face_recognition opencv-python numpy  
+   pip install -r requirements.txt  
    ```  
 
 3. **Add known faces:**  
@@ -70,7 +70,8 @@ The application utilizes a webcam to analyze video streams, identify known faces
 │   ├── person1.jpg  
 │   ├── person2.jpg  
 │   └── ...  
-└── README.md            # This file  
+├── requirements.txt     # List of required Python dependencies  
+└── README.md            # Project documentation  
 ```  
 
 ---
